@@ -6,7 +6,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: github-suraj/git-action-alerts@main
+      - name: Install Python 3
+        uses: github-suraj/calendar-util@main
+        with:
+          python-version: 3.9.1
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
