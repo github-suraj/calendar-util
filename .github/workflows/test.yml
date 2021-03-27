@@ -11,13 +11,10 @@ jobs:
         with:
           python-version: 3.9.1
       - name: Install Dependencies
-        uses: github-suraj/git-action-alerts@main
         run: |
           python -m pip install --upgrade pip
           pip install -r requirement.txt
       - name: Run tests with pytest
-        uses: github-suraj/git-action-alerts@main
         run: pytest -k pytest
       - name: Run tests with unittest
-        uses: github-suraj/git-action-alerts@main
         run: python -m unittest discover
