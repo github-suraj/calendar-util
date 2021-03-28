@@ -49,3 +49,9 @@ datetime.date(2021, 4, 5)
 - friday
 - saturday
 - sunday
+
+## Show your Support
+Give us a :star2: if this project helped you!
+
+## License
+Copyright © 2021 [Suraj Jaiswal](https://github.com/github-suraj)
