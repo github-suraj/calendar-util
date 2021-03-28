@@ -8,5 +8,6 @@ setup(name="calendarutil",
       description="Simple and lightweight calendar support for python datetime.date",
       packages=find_packages(),
       long_description=open('README.md').read(),
+      long_description_content_type="text/markdown",
       project_urls={"Detail Usage": "https://github.com/github-suraj/calendar-util/blob/main/calendarutil/__init__.py"}
 )
