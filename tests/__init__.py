@@ -44,3 +44,24 @@ lthm = date(2021, 1, 28)
 lfrm = date(2021, 1, 29)
 lsam = date(2021, 1, 30)
 lsum = date(2021, 1, 31)
+
+## Last day of month
+ldom = [date(2021, 1, 31), date(2021, 2, 28), date(2021, 3, 31), date(2021, 4, 30), date(2021, 5, 31), date(2021, 6, 30), date(2021, 7, 31), date(2021, 8, 31), date(2021, 9, 30), date(2021, 10, 31), date(2021, 11, 30), date(2021, 12, 31)]
+
+## First weekday of month
+fwdom = [date(2021, 1, 1), date(2021, 2, 1), date(2021, 3, 1), date(2021, 4, 1), date(2021, 5, 3), date(2021, 6, 1), date(2021, 7, 1), date(2021, 8, 2), date(2021, 9, 1), date(2021, 10, 1), date(2021, 11, 1), date(2021, 12, 1)]
+
+## Last weekday of month
+lwdom = [date(2021, 1, 29), date(2021, 2, 26), date(2021, 3, 31), date(2021, 4, 30), date(2021, 5, 31), date(2021, 6, 30), date(2021, 7, 30), date(2021, 8, 31), date(2021, 9, 30), date(2021, 10, 29), date(2021, 11, 30), date(2021, 12, 31)]
+
+## First day of quarter
+fdoq = [date(2021, 1, 1), date(2021, 4, 1), date(2021, 7, 1), date(2021, 10, 1)]
+
+## Last day of quarter
+ldoq = [date(2021, 3, 31), date(2021, 6, 30), date(2021, 9, 30), date(2021, 12, 31)]
+
+## First weekday of quarter
+fwdoq = [date(2021, 1, 1), date(2021, 4, 1), date(2021, 7, 1), date(2021, 10, 1)]
+
+## Last weekday of quarter
+lwdoq = [date(2021, 3, 31), date(2021, 6, 30), date(2021, 9, 30), date(2021, 12, 31)]
