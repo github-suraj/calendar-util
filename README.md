@@ -59,7 +59,7 @@ In this module, all the methods take input arguments as `date object` for `start
 - saturday
 - sunday
 
-## Usage : 2 : get date on fist/last day/weekday of month
+## Usage : 2 : get date on first/last day/weekday of month
 
 In this module, all the methods take input arguments as `year` and `month`.
 
@@ -91,7 +91,7 @@ datetime.date(2021, 2, 28)
 datetime.date(2021, 2, 26)
 ```
 
-## Usage : 3 : get date on fist/last day/weekday of quarter
+## Usage : 3 : get date on first/last day/weekday of quarter
 
 In this module, all the methods take input arguments as `year` and `quarter number`.
 
