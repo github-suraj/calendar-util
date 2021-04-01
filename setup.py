@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name="calendarutil",
-      version="2021.3.30",
+      version="2021.4.1",
       url="https://github.com/github-suraj/calendar-util",
       author="Suraj Jaiswal",
       author_email="surajkumarjaiswal053@gmail.com",
